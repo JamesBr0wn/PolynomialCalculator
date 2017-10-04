@@ -178,6 +178,6 @@ string Polynomial::printableString()const {
 }
 
 //Done!
-Polynomial operator*(int multiCoffic, const Polynomial& poly) {
+Polynomial operator*(double multiCoffic, const Polynomial& poly) {
 	return poly.operator*(multiCoffic);
 }

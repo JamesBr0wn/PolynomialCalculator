@@ -1,22 +1,3 @@
-﻿  Polynomial.cpp
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(17): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(47): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(63): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(106): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\github\polynomialcalculator\polynomialcalculator\polynomial.cpp(145): warning C4018: “<”: 有符号/无符号不匹配
-  main.cpp
-  Calculator.cpp
-d:\documents\github\polynomialcalculator\polynomialcalculator\calculator.cpp(209): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-d:\documents\github\polynomialcalculator\polynomialcalculator\calculator.cpp(493): warning C4018: “<”: 有符号/无符号不匹配
-  正在生成代码...
+﻿  Calculator.cpp
   PolynomialCalculator.vcxproj -> D:\Documents\GitHub\PolynomialCalculator\Debug\PolynomialCalculator.exe
   PolynomialCalculator.vcxproj -> D:\Documents\GitHub\PolynomialCalculator\Debug\PolynomialCalculator.pdb (Partial PDB)

@@ -36,6 +36,6 @@ private:
 };
 
 //The operator overloading to calculate a polynomial multiple a constant value
-Polynomial operator*(int multiCoffic, const Polynomial&);
+Polynomial operator*(double multiCoffic, const Polynomial&);
 
 #endif 

@@ -371,13 +371,14 @@ void Calculator::polyDerivation() {
 	}
 }
 
+//Done!
 void Calculator::getOption(int & option) {
 	cin.sync();
 	cin >> option;
 	while (cin.fail() || getchar() != '\n' || option < 0 || option > 9) {
 		cout << "Invalid option, please try again!" << endl;
 		cin.clear();
-		cin.sync();
+		cin.ignore(1024,'\n');
 		cin >> option;
 	}
 }
@@ -490,7 +491,7 @@ bool Calculator::nameCheck(string name) {
 	if (!isalpha(name[0])) {
 		return false;
 	}
-	for (int i = 1; i < name.length(); i++) {
+	for (int i = 1; i < (int)name.length(); i++) {
 		if (!isalpha(name[i]) && !isdigit(name[i])) {
 			return false;
 		}
