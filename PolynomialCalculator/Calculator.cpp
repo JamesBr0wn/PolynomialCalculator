@@ -374,51 +374,52 @@ void Calculator::polyDerivation() {
 //Done!
 void Calculator::getOption(int & option) {
 	cin.sync();
+	cout << "Please enter your option" << endl;
 	cin >> option;
 	while (cin.fail() || getchar() != '\n' || option < 0 || option > 9) {
 		cout << "Invalid option, please try again!" << endl;
 		cin.clear();
 		cin.ignore(1024,'\n');
 		cin >> option;
+		cout << "Please enter your option" << endl;
 	}
 }
 
 void Calculator::callModule(int option) {
 	switch (option) {
 	case 1:
-		cout << "Func 1" << endl;
+		cout << "Func 1: Input a Polynomial" << endl;
 		inputPoly();
 		break;
 	case 2:
-		cout << "Func 2" << endl;
+		cout << "Func 2: Show stored Polynomial" << endl;
 		showStoredPoly();
 		break;
 	case 3:
-		cout << "Func 3" << endl;
+		cout << "Func 3: Polynomial adding" << endl;
 		polyAdding();
 		break;
 	case 4:
-		cout << "Func 4" << endl;
+		cout << "Func 4: Polynomial subtracting" << endl;
 		polySubtracting();
 		break;
 	case 5:
-		cout << "Func 5" << endl;
+		cout << "Func 5: Polynomial multiply" << endl;
 		polyMultipleWithPoly();
 		break;
 	case 6:
-		cout << "Func 6" << endl;
+		cout << "Func 6: Polynomial comparation" << endl;
 		polyCompare();
 		break;
 	case 7:
-		cout << "Func 7" << endl;
+		cout << "Func 7: Polynomial derivation" << endl;
 		polyDerivation();
 		break;
 	case 8:
-		cout << "Func 8" << endl;
+		cout << "Func 8: Calculate value" << endl;
 		calculateValue();
 		break;
 	case 0:
-		cout << "Func 0" << endl;
 		helpMenu();
 		break;
 	default:

@@ -7,6 +7,15 @@ using namespace std;
 //Done!
 Polynomial::Polynomial(vector<pair<int, double> >& poly) {
 	myPoly = poly;
+	for (int i = 0; i < myPoly.size(); i++) {
+		for (int j = 0; j < myPoly.size() - 1; j++) {
+			if (myPoly[j].first > myPoly[j + 1].first) {
+				pair<int, double> temp = myPoly[j];
+				myPoly[j] = myPoly[j + 1];
+				myPoly[j + 1] = temp;
+			}
+		}
+	}
 }
 
 //Done!
